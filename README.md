@@ -1,5 +1,5 @@
 # Quantized Estimator for making inference on the edge.
-with Google Coral Accelerator, the Google Coral Dev Board and the Intel Neural Compute Stick 2.
+Using the Google Coral Accelerator, the Google Coral Dev Board or the Intel Neural Compute Stick 2.
 
 This repository contains all files required to create a deep neural network in Tensorflow, to port this model on a Raspberry Pi and to make the inference using either the Google Edge-tpu accelerator or the Intel Neural Compute Stick v2 to increase performance. 
 
