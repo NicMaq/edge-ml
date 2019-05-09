@@ -14,7 +14,7 @@ You can find the full repor on Medium: https://medium.com/p/21234ea7633/edit
 To go through the notebooks, you have first to download CIFAR10 (https://www.cs.toronto.edu/~kriz/cifar.html) and store the batches in ./datasets/cifar-10. You also need to create the following forlder (./models/Tensor_CIFAR_Sparse_model/) to store the saved_model and Tensorboard data. You also have to install the usual suspects: Tensorflow, pickle, numpy, matplotlib... see first cell for the list of dependencies.
 
 ### Installing
-To run the two py files, you need at least one of the accelerator devices and a fresh install of the related environments (OpenVino or Edge-tpu). There are plenty of good tutorials explaining how to deploy these systems.
+To run the two py files, you need at least one of the accelerator devices and a fresh install of the related environments (OpenVino or Edge-tpu). There are plenty of good tutorials explaining how to deploy these environments.
 
 ## Authors
 
