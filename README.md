@@ -7,7 +7,7 @@ We evaluate both environments to understand the depth of the knowledge required 
 
 The plan is to design a fresh Convolutional Neural Network with Tensorflow. As these chips work faster with integers or half precision floating points, we will build a model running on a low precision data-type. To do this, we will operate a quantization aware training for our model. Then, we will freeze the graph to compile it into the different formats the two accelerators support. Finally, we’ll try our model on the edge.
 
-You can find the full repor on Medium: https://medium.com/@nicolasmaquaire/inference-on-the-edge-21234ea7633?source=friends_link&sk=1796b0eb9349b262e4c840efcd7e656d
+You can find the full repor on Medium: http://bit.ly/InferenceOnTheEdge
 
 
 ### Prerequisites
