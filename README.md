@@ -3,11 +3,11 @@ Using the Google Coral Accelerator, the Google Coral Dev Board or the Intel Neur
 
 This repository contains all files required to create a deep neural network in Tensorflow, to port this model on a Raspberry Pi and to make the inference using either the Google Edge-tpu accelerator or the Intel Neural Compute Stick v2 to increase performance. 
 
-We evaluate both environments to understand the depth of the knowledge required to use these devices. The goal is not to search for the best performances with regards to the models, losses, metrics and architecture. It is certainly possible to improve many aspects of what’s following. 
+We evaluate both environments to understand the depth of the knowledge required to use these devices. The goal is not to search for the best performances with regards to the models, losses, metrics and architecture.  
 
-We are going to design a fresh Convolutional Neural Network with Tensorflow. As these chips work faster with integers or half precision floating points, we will build a model running on a low precision data-type. To do this, we will operate a quantization aware training for our model. Then, we will freeze the graph to compile it into the different formats the two accelerators support. Finally, we’ll try our model on the edge.
+The plan is to design a fresh Convolutional Neural Network with Tensorflow. As these chips work faster with integers or half precision floating points, we will build a model running on a low precision data-type. To do this, we will operate a quantization aware training for our model. Then, we will freeze the graph to compile it into the different formats the two accelerators support. Finally, we’ll try our model on the edge.
 
-Go to ... to read the full report.
+You can find the full repor on Medium: https://medium.com/p/21234ea7633/edit
 
 
 ### Prerequisites
